@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <title>Tytuł strony / podstrony</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Pamięć</h1>
+    </header>
+
+    <section>
+        <p> <input type="number" id="rowNumber" value="10">
+            <input type="number" id="columNumber" value="5">
+            <input type="number" id="timeNumber" value="300">
+            <div class="button" id="start">Start</div>
+            <div>
+                Czas: <span id="time">0</span>
+            </div>
+            <div>
+                Wynik: <span id="score">0</span>
+            </div>
+        </p>
+
+        <div id="board"></div>
+    </section>
+    <footer>
+        <p>
+            <p>Copyright &copy; 2014 jkozak.pl</p>
+        </p>
+    </footer>
+
+    <script src="skrypt.js" async defer></script>
+</body>
+
+</html>
